@@ -106,18 +106,18 @@
 } while(0)
 #endif /* CONFIG_KERNEL_MCS */
 
-#define DO_REAL_CALL(ep, tag) DO_CALL(ep, tag, "syscall")
+#define DO_REAL_CALL(ep, tag) DO_CALL(ep, tag, "syscall 0")
 #define DO_NOP_CALL(ep, tag) DO_CALL(ep, tag, "nop")
-#define DO_REAL_CALL_10(ep, tag) DO_CALL_10(ep, tag, "syscall")
+#define DO_REAL_CALL_10(ep, tag) DO_CALL_10(ep, tag, "syscall 0")
 #define DO_NOP_CALL_10(ep, tag) DO_CALL_10(ep, tag, "nop")
-#define DO_REAL_SEND(ep, tag) DO_SEND(ep, tag, "syscall")
+#define DO_REAL_SEND(ep, tag) DO_SEND(ep, tag, "syscall 0")
 #define DO_NOP_SEND(ep, tag) DO_SEND(ep, tag, "nop")
 
-#define DO_REAL_REPLY_RECV(ep, tag, ro) DO_REPLY_RECV(ep, tag, ro, "syscall")
+#define DO_REAL_REPLY_RECV(ep, tag, ro) DO_REPLY_RECV(ep, tag, ro, "syscall 0")
 #define DO_NOP_REPLY_RECV(ep, tag, ro) DO_REPLY_RECV(ep, tag, ro, "nop")
-#define DO_REAL_REPLY_RECV_10(ep, tag, ro) DO_REPLY_RECV_10(ep, tag, ro, "syscall")
+#define DO_REAL_REPLY_RECV_10(ep, tag, ro) DO_REPLY_RECV_10(ep, tag, ro, "syscall 0")
 #define DO_NOP_REPLY_RECV_10(ep, tag, ro) DO_REPLY_RECV_10(ep, tag, ro, "nop")
-#define DO_REAL_RECV(ep, ro) DO_RECV(ep, ro, "syscall")
+#define DO_REAL_RECV(ep, ro) DO_RECV(ep, ro, "syscall 0")
 #define DO_NOP_RECV(ep, ro) DO_RECV(ep, ro, "nop")
 
 #define READ_COUNTER_BEFORE SEL4BENCH_READ_CCNT

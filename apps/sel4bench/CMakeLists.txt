@@ -97,17 +97,17 @@ if(Sel4Bench)
         sel4rpc
         sel4_autoconf
         sel4benchapp_Config
-        sel4benchfault_Config
-        hardware_Config
+        # sel4benchfault_Config
+        # hardware_Config
         sel4benchipc_Config
-        sel4benchirq_Config
-        sel4benchirquser_Config
-        sel4benchpagemapping_Config
-        sel4benchscheduler_Config
-        sel4benchsignal_Config
-        smp_Config
-        sel4benchsync_Config
-        sel4benchvcpu_Config
+        # sel4benchirq_Config
+        # sel4benchirquser_Config
+        # sel4benchpagemapping_Config
+        # sel4benchscheduler_Config
+        # sel4benchsignal_Config
+        # smp_Config
+        # sel4benchsync_Config
+        # sel4benchvcpu_Config
         # Add new benchmark configs here
     )
     include(rootserver)

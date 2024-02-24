@@ -6,17 +6,17 @@
 #pragma once
 
 #include <sel4benchapp/gen_config.h>
-#include <sel4benchfault/gen_config.h>
-#include <hardware/gen_config.h>
+// #include <sel4benchfault/gen_config.h>
+// #include <hardware/gen_config.h>
 #include <sel4benchipc/gen_config.h>
-#include <sel4benchirq/gen_config.h>
-#include <sel4benchirquser/gen_config.h>
-#include <sel4benchpagemapping/gen_config.h>
-#include <sel4benchscheduler/gen_config.h>
-#include <sel4benchsignal/gen_config.h>
-#include <smp/gen_config.h>
-#include <sel4benchsync/gen_config.h>
-#include <sel4benchvcpu/gen_config.h>
+// #include <sel4benchirq/gen_config.h>
+// #include <sel4benchirquser/gen_config.h>
+// #include <sel4benchpagemapping/gen_config.h>
+// #include <sel4benchscheduler/gen_config.h>
+// #include <sel4benchsignal/gen_config.h>
+// #include <smp/gen_config.h>
+// #include <sel4benchsync/gen_config.h>
+// #include <sel4benchvcpu/gen_config.h>
 #include <jansson.h>
 #include <sel4bench/sel4bench.h>
 #include <sel4utils/process.h>
