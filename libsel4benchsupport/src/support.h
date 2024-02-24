@@ -8,4 +8,4 @@
 #include <sel4utils/slab.h>
 #include <simple/arch/simple.h>
 
-void benchmark_arch_get_simple(arch_simple_t *simple);
+// void benchmark_arch_get_simple(arch_simple_t *simple);

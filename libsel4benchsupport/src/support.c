@@ -458,7 +458,7 @@ static void init_simple(env_t *env)
 
     env->simple.arch_simple.data = env;
     env->simple.arch_simple.irq = get_irq;
-    benchmark_arch_get_simple(&env->simple.arch_simple);
+    // benchmark_arch_get_simple(&env->simple.arch_simple);
 }
 
 static sel4rpc_client_t *rpc_client;
